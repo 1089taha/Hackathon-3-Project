@@ -37,7 +37,7 @@ const Page = () => {
             <ul className="hidden tablet:flex gap-8 text-[#726E8D]">
             <Link href="/about">
               <li className="hover:text-[#2A254B]">
-                About us
+                About Us
               </li>
               </Link>
               
