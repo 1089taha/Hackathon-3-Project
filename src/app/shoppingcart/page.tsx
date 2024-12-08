@@ -1,7 +1,6 @@
 import Footer from '@/components/Footer'
 import NavBar from '@/components/NavBar'
 import { Button } from '@/components/ui/button'
-import { DivideCircle } from 'lucide-react'
 import Image from 'next/image'
 import React from 'react'
 

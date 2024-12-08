@@ -1,4 +1,3 @@
-"use client"
 import BrandDetails from "@/components/BrandDetails";
 import Club from "@/components/Club";
 import NewCeramics from "@/components/NewCeramics";

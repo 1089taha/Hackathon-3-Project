@@ -7,7 +7,7 @@ import Link from 'next/link'
 import { FaFacebook, FaInstagram, FaLinkedin, FaPinterest, FaSkype, FaTwitter } from 'react-icons/fa'
 import React, { useState } from 'react';
 
-const page = () => {
+const Page = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -240,4 +240,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
