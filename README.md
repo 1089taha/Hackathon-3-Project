@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Avion 🛒  
 
-## Getting Started
+An elegant and fully responsive eCommerce platform built with **Next.js**, **TypeScript**, **Tailwind CSS**, and **ShadCN UI**. with modern interface and seamless navigation.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Features  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Home Page:** A welcoming landing page highlighting the store’s identity and key features.  
+- **About Page:** Details about the store's mission, values, and background.  
+- **Product Listing:** Explore categorized products for a streamlined shopping experience.  
+- **All Products Page:** Browse the full catalog of available items in one place.  
+- **Shopping Cart:** Add, view, and manage selected items for purchase.  
+- **Responsive Design:** Fully optimized for mobile, tablet, and desktop devices.  
+- **Modern UI:** Built using ShadCN UI for polished and visually appealing components.  
+- **Performance:** Leveraged Next.js for server-side rendering (SSR) and static site generation (SSG) to ensure fast load times.  
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Technologies Used  
 
-## Learn More
+- **Framework:** [Next.js](https://nextjs.org/)  
+- **Language:** [TypeScript](https://www.typescriptlang.org/)  
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)  
+- **UI Components:** [ShadCN UI](https://shadcn.dev/)  
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📷 Screenshots  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+![Home Page Screenshot](/public/Home.png)  
+![Product Listing Screenshot](/public/ProductListing.png)  
+![Shopping Cart Screenshot](/public//ShoppingCart.png)  
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📂 Getting Started  
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Follow these steps to run the project locally:  
+
+### Prerequisites  
+- Node.js and npm installed on your machine.  
+- Git installed.  
+
+### Installation  
+
+1. Clone the repository:  
+   ```bash  
+   git clone https://github.com/your-username/ShopSphere.git  
+   cd ShopSphere  
+
+2. Install dependencies:
+  npm install  
+
+3. Run the development server:
+   npm run dev  
+
+4. Open http://localhost:3000 in your browser to see the website in action.
