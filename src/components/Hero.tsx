@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button } from './ui/button';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Hero = () => {
   return (
@@ -11,9 +12,11 @@ const Hero = () => {
           <h2 className="font-clash text-3xl font-normal text-white">
             The furniture brand for the future, with timeless designs
           </h2>
+          <Link href="/allproducts">
           <Button className="hidden tablet:block w-[170px] h-[56px] bg-gray-800 rounded-none tablet:mt-10 hover:bg-white hover:text-black">
             View Collection
           </Button>
+          </Link>
           <p className="laptop-sm:w-[602px] mt-20 tablet:mt-52 font-satochi text-white text-[18px] font-normal">
             A new era in eco friendly furniture with Avelon, the French luxury retail brand with nice fonts, tasteful colors and a beautiful way to display things digitally using modern web technologies.
           </p>

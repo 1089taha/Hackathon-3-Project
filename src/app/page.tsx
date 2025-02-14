@@ -7,7 +7,11 @@ import Club from "@/components/Club";
 import GetInTouch from "@/components/GetInTouch";
 import Footer from "@/components/Footer";
 
-const Home: React.FC = () => {
+
+
+
+const Home =  () => {
+  
   return (
     <>
         <NavBar />
@@ -18,6 +22,7 @@ const Home: React.FC = () => {
         <Club/>
         <GetInTouch/>
         <Footer/>
+        
     </>
   );
 };

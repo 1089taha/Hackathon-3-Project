@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import { Button } from './ui/button'
+import Link from 'next/link'
 
 const OurProduct = () => {
   return (
@@ -49,7 +50,7 @@ const OurProduct = () => {
             </div>
           </div>
           <div className='flex items-center justify-center mt-10'>
-                <Button className='w-[342px] tablet:w-[170px] h-[56px] bg-[#F9F9F9] text-[#2A254B] hover:text-white'>View Collection</Button>
+          <Link href="/allproducts"><Button className='w-[342px] tablet:w-[170px] h-[56px] bg-[#F9F9F9] text-[#2A254B] hover:text-white'>View Collection</Button></Link>
           </div>
         </div>
       </div>

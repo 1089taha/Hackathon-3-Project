@@ -26,14 +26,6 @@ An elegant and fully responsive eCommerce platform built with **Next.js**, **Typ
 
 ---
 
-## 📷 Screenshots  
-
-![Home Page Screenshot](/public/Home.png)  
-![Product Listing Screenshot](/public/ProductListing.png)  
-![Shopping Cart Screenshot](/public//ShoppingCart.png)  
-
----
-
 ## 📂 Getting Started  
 
 Follow these steps to run the project locally:  

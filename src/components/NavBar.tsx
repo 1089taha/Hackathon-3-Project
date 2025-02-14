@@ -18,7 +18,7 @@ const NavBar = () => {
           <Image src="/Search.svg" alt="Search Icon" width={20} height={20} className="hidden tablet:block" />
           <h2 className="font-clash text-2xl font-bold text-[#22202E]">Avion</h2>
           <div className="flex gap-4">
-            <Image src="/ShoppingCart.svg" alt="Shopping Cart" height={20} width={20} className="hidden tablet:block" />
+            <Link href="/Cart"><Image src="/ShoppingCart.svg" alt="Shopping Cart" height={20} width={20} className="hidden tablet:block" /></Link>
             <Image src="/UserAvatar.svg" alt="User Avatar" height={20} width={20} className="hidden tablet:block" />
             <Image src="/Search.svg" alt="Search Icon" height={20} width={20} className="block tablet:hidden" />
             {/* Menu icon for mobile */}
@@ -53,6 +53,7 @@ const NavBar = () => {
               <li className="hover:text-[#726E8D] hover:bg-gray-100 rounded-md px-2 py-2">
                 <Link href="/allproducts">All Products</Link>
               </li>
+              
             </ul>
           </div>
         )}
@@ -90,6 +91,9 @@ const NavBar = () => {
             <Link href="/allproducts">
               <li>All Products</li>
             </Link>
+            
+               
+              
           </ul>
         </div>
       </div>
