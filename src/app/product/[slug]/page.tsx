@@ -34,35 +34,47 @@ const Page = ({ params }: { params: { slug: string } }) => {
 
   useEffect(() => {
     const fetchProduct = async () => {
-      const productQuery = groq`
-        *[_type == "product" && slug.current == $slug][0] {
-          _id,
-          name,
-          description,
-          slug { current },
-          image {
-            asset->{
-              url
-            }
-          },
-          price,
-          tags,
-          features,
-          dimensions {
-            height,
-            width,
-            depth
-          },
-          category->{
+      try {
+        const productQuery = groq`
+          *[_type == "product" && slug.current == $slug][0] {
+            _id,
             name,
-            slug
-          },
-          quantity
+            description,
+            slug { current },
+            image {
+              asset->{
+                url
+              }
+            },
+            price,
+            tags,
+            features,
+            dimensions {
+              height,
+              width,
+              depth
+            },
+            category->{
+              name,
+              slug
+            },
+            quantity
+          }
+        `;
+
+        const fetchedProduct = await client.fetch(productQuery, { slug: params.slug });
+
+        if (fetchedProduct) {
+          setProduct(fetchedProduct);
+        } else {
+          setProduct(null);
         }
-      `;
-      const fetchedProduct = await client.fetch(productQuery, { slug: params.slug });
-      setProduct(fetchedProduct);
-      setLoading(false);
+      } catch (error) {
+        console.error("Error fetching product:", error);
+        setProduct(null);
+      } finally {
+        setLoading(false);
+      }
     };
 
     fetchProduct();
